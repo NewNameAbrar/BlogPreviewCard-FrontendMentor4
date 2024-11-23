@@ -85,3 +85,17 @@ h2 {
 .profileName {
   font-weight: 700;
 }
+
+@media (max-width: 425px) {
+  main {
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 0 black;
+  }
+
+  .coverImg img {
+    width: 280px;
+    border-radius: 5px;
+  }
+}
